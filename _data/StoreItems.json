@@ -1,5 +1,11 @@
 {
-	"items" : [
+	"items" : [	
+	{
+		"abr": "beer",
+		"price": 20,
+		"category": "Używki",
+		"defname": "Beer"
+	},
 	{
 		"abr": "beer",
 		"price": 20,
