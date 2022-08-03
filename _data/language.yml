@@ -1,50 +1,50 @@
 # Tabs
-items_tab: 'Items'
-events_tab: 'Events'
-traits_tab: 'Traits'
-animals_tab: 'Animals'
-weapons_tab: 'Weapons'
-pawn_kinds_tab: 'Pawn Kinds'
+items_tab: 'Przedmioty'
+events_tab: 'Eventy'
+traits_tab: 'Traity'
+animals_tab: 'Zwierzeta'
+weapons_tab: 'Bronie'
+pawn_kinds_tab: 'Rodzaje Kolonistów'
 
 # Table headers
-mod_name_header: Mod Name
-author_header: Author
-version_header: Version
-command_name_header: Command Name
-user_level_header: User Level
-description_header: Description
-cost_header: Cost
-category_header: Category
-karma_type_header: Karma Type
-add_cost_header: Add Cost
-remove_cost_header: Remove Cost
-name_header: Name
+mod_name_header: Nazwa Moda
+author_header: Autor
+version_header: Wersja
+command_name_header: Nazwa Komendy
+user_level_header: Użytkownik
+description_header: Opis
+cost_header: Cena
+category_header: Kategoria
+karma_type_header: Rodzaj Karmy
+add_cost_header: Cena za dodanie
+remove_cost_header: Cena za usunięcie
+name_header: Nazwa
 
 # Error messages
-no_commands: 'These are not the commands you are looking for.'
+no_commands: 'Niestety brak komendy, którą szukasz.'
 
 # Redirect messages
-see_traits: 'See prices in the traits section'
-see_kinds: 'See prices in the pawn kinds section'
-see_items: 'See prices in the items section'
+see_traits: 'Zobacz cenę w zakładce: Traity'
+see_kinds: 'Zobacz cenę w zakładce: Rodzaje Kolonistów'
+see_items: 'Zobacz cenę w zakładce: Przedmioty'
 
 # Search texts
-search_items: 'Search for items...'
-search_traits: 'Search for traits...'
-search_pawn_kinds: 'Search for pawn kinds...'
-search_mods: 'Search for mods...'
-search_commands: 'Search for commands...'
-search_animals: 'Search for animals...'
-search_events: 'Search for events...'
-search_weapons: 'Search for weapons...'
+search_items: 'Szukaj przedmiotów...'
+search_traits: 'Szukaj traitów...'
+search_pawn_kinds: 'Szukaj kolonistów...'
+search_mods: 'Szukaj modów...'
+search_commands: 'Szukaj komend...'
+search_animals: 'Szukaj zwierząt...'
+search_events: 'Szukaj eventów...'
+search_weapons: 'Szukaj broni...'
 
 # Metadata
-usage: 'Usage: %s'
-shortcut: 'This is a shortcut for %s'
-stats: 'Stats'
-conflicts_with: 'Conflicts with'
-from: 'From %s'
-weight: 'Weight'
+usage: 'Użycie: %s'
+shortcut: 'Skrót dla %s'
+stats: 'Staty'
+conflicts_with: 'Konflikt z'
+from: 'Pochodzi z %s'
+weight: 'Waga'
 limit: 'Limit'
 karma: 'Karma'
-bypasses_limit: 'This trait may exceed the trait limit'
+bypasses_limit: 'Ta cecha może przekroczyć limit tratów'
