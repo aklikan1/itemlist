@@ -1,7 +1,7 @@
-﻿{
+{
   "traits": [
     {
-      "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
+      "description": "Uwielbia doświadczać uczucia wolności wynikającej z nagości. Może nosić ubrania, ale czuje się PAWN_gender ? szczęśliwszy : szczęśliwsza bez nich.",
       "stats": [
 
       ],
@@ -31,9 +31,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
+      "description": "Czerpie satysfakcję z krzywdzenia innych, nie przejmuje się widokiem krwi lub śmierci. Ma cztery razy większą szansę niż inni na rozpoczęcie walki z inną osobą.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -49,7 +49,7 @@
 
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Bloodlust",
@@ -61,13 +61,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy is exceptionally kind. he has a special way of using kind words to brighten someone's day. he never insults others, and never judges people by their appearance.",
+      "description": "Jest wyjątkowo sympatyczną osobą. Nigdy nie obraża innych i czasami używa miłych słów, aby umilić dzień osobom w okół siebie. Nigdy nie ocenia ludzi po wyglądzie.",
       "stats": [
-
+        "x200% global certainty loss factor"
       ],
       "conflicts": [
-        "abrasive",
-        "psychopath"
+        "grubiaństwo",
+        "psychopatia"
       ],
       "bypassLimit": false,
       "data": {
@@ -77,11 +77,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "abrasive",
-          "psychopath"
+          "grubiaństwo",
+          "psychopatia"
         ],
         "stats": [
-
+          "x200% global certainty loss factor"
         ]
       },
       "defName": "Kind",
@@ -93,9 +93,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy has no empathy. The suffering of others doesn't bother him at all. he doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects him. he also feels no mood boost from socializing.",
+      "description": "Nie posiada empatii. Ani trochę nie przejmuje się cierpieniem innych. Podchodzi obojętnie do tego, że inni są oprawiani, więzieni, sprzedawani jako niewolnicy czy też pozostają niepogrzebani - jeśli to PAWN_gender ? jego : jej nie dotyczy. Nie odczuwa też poprawy nastroju w związku z przebywaniem w otoczeniu z innymi osobami.",
       "stats": [
-
+        "x50% global certainty loss factor"
       ],
       "conflicts": [
 
@@ -111,7 +111,7 @@
 
         ],
         "stats": [
-
+          "x50% global certainty loss factor"
         ]
       },
       "defName": "Psychopath",
@@ -123,9 +123,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy was taught that eating human meat is wrong and horrible. But one time, long ago, he tried it... and he liked it.",
+      "description": "Uczono, że jedzenie ludzkiego mięsa jest okropne i złe. Ale kiedyś, dawno temu, PAWN_gender ? postanowił : postanowiła spróbować... i PAWN_gender ? mu : jej posmakowało.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -141,7 +141,7 @@
 
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Cannibal",
@@ -153,9 +153,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
+      "description": "Zawsze mówi to, co ma na myśli. Zwłaszcza kiedy coś się PAWN_gender ? jemu : jej nie podoba. To zwykle drażni ludzi.",
       "stats": [
-
+        "x50% global certainty loss factor"
       ],
       "conflicts": [
 
@@ -171,7 +171,7 @@
 
         ],
         "stats": [
-
+          "x50% global certainty loss factor"
         ]
       },
       "defName": "Abrasive",
@@ -183,17 +183,17 @@
       "degree": 0
     },
     {
-      "description": "Timmy is too smart for his own good. he learns everything much faster than everyone, but can be quite eccentric.",
+      "description": "Niesamowicie inteligentna osoba. Uczy się wszystkiego znacznie szybciej, ale PAWN_gender ? jego : jej zachowanie może być postrzegane jako nieco ekscentryczne.",
       "stats": [
-        "+75% global learning factor",
-        "+12% mental break threshold"
+        "+75% szybkość nauki",
+        "+12% próg poziomu załamania"
       ],
       "conflicts": [
-        "iron-willed",
-        "steadfast",
-        "nervous",
-        "volatile",
-        "slowlearner"
+        "stalowenerwy",
+        "nerwynawodzy",
+        "nerwowość",
+        "nadwrażliwość",
+        "powolnanauka"
       ],
       "bypassLimit": false,
       "data": {
@@ -203,15 +203,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "iron-willed",
-          "steadfast",
-          "nervous",
-          "volatile",
-          "slowlearner"
+          "stalowenerwy",
+          "nerwynawodzy",
+          "nerwowość",
+          "nadwrażliwość",
+          "powolnanauka"
         ],
         "stats": [
-          "+75% global learning factor",
-          "+12% mental break threshold"
+          "+75% szybkość nauki",
+          "+12% próg poziomu załamania"
         ]
       },
       "defName": "TooSmart",
@@ -223,17 +223,17 @@
       "degree": 0
     },
     {
-      "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
+      "description": "Lubi walczyć w zwarciu. Celność PAWN_gender ? jego : jej ciosów jest znacznie zwiększona. Ale będzie bardzo PAWN_gender ? nieszczęśliwy : nieszczęśliwa, jeśli zostanie PAWN_gender ? poproszony : poproszona o noszenie broni dystansowej.",
       "stats": [
-        "Shoot frenzy inspiration disabled.",
-        "+4 melee",
-        "-4 shooting",
-        "+4.0 melee hit chance"
+        "Szał strzelania inspiration disabled.",
+        "+4 walka wręcz",
+        "-4 strzelectwo",
+        "+4.0 szansa na trafienie wręcz"
       ],
       "conflicts": [
-        "carefulshooter",
-        "trigger-happy",
-        "wimp"
+        "ostrożnystrzelec",
+        "szybkipalec",
+        "tchórzliwość"
       ],
       "bypassLimit": false,
       "data": {
@@ -243,15 +243,15 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "carefulshooter",
-          "trigger-happy",
-          "wimp"
+          "ostrożnystrzelec",
+          "szybkipalec",
+          "tchórzliwość"
         ],
         "stats": [
-          "Shoot frenzy inspiration disabled.",
-          "+4 melee",
-          "-4 shooting",
-          "+4.0 melee hit chance"
+          "Szał strzelania inspiration disabled.",
+          "+4 walka wręcz",
+          "-4 strzelectwo",
+          "+4.0 szansa na trafienie wręcz"
         ]
       },
       "defName": "Brawler",
@@ -263,12 +263,12 @@
       "degree": 0
     },
     {
-      "description": "For Timmy, there's something exciting about getting hurt. he doesn't know why, he's just wired differently.",
+      "description": "Odczuwa ból jako coś niesamowicie przyjemnego. Nie wie dlaczego, ale widocznie rożni się od innych.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
-
+        "tchórzliwość"
       ],
       "bypassLimit": false,
       "data": {
@@ -278,10 +278,10 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-
+          "tchórzliwość"
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Masochist",
@@ -293,7 +293,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy likes to be up during the night, and sleep during the day.\n\nhe gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\nhe doesn't get a mood penalty for being in the dark.",
+      "description": "Lubi wstawać w nocy, a spać w dzień.\n\nDostaje bonus do nastroju jeśli nie śpi w nocy (23godz - 6godz) i go traci, gdy nie śpi w dzień (11godz - 18godz). Nie otrzymuje kary do nastroju, gdy przebywa w ciemności.",
       "stats": [
 
       ],
@@ -323,13 +323,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
+      "description": "Potrzebuje naprawdę imponującej sypialni. Ma gorszy nastrój, gdy nie otrzyma tego, czego chce.",
       "stats": [
 
       ],
       "conflicts": [
-        "ascetic",
-        "jealous"
+        "ascetyzm",
+        "zazdrość"
       ],
       "bypassLimit": false,
       "data": {
@@ -339,8 +339,8 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic",
-          "jealous"
+          "ascetyzm",
+          "zazdrość"
         ],
         "stats": [
 
@@ -355,13 +355,13 @@
       "degree": 0
     },
     {
-      "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
+      "description": "Posiadanie gorszej sypialni od innych jest poniżające. Ma obniżony nastrój, jeżeli inna osoba z kolonii będzie miał lepszą.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
-        "ascetic",
-        "greedy"
+        "ascetyzm",
+        "chciwość"
       ],
       "bypassLimit": false,
       "data": {
@@ -371,11 +371,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic",
-          "greedy"
+          "ascetyzm",
+          "chciwość"
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Jealous",
@@ -387,14 +387,14 @@
       "degree": 0
     },
     {
-      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
+      "description": "PAWN_gender ? Porzucił : Porzuciła fizyczne wygody i przyjemności na rzecz prostego, czystego stylu życia. Unieszczęśliwi go zbyt imponująca sypialnia. Nie lubi również fantazyjnych potraw i woli jeść na surowo. Nigdy nie ocenia innych po wyglądzie.",
       "stats": [
-
+        "x50% global certainty loss factor"
       ],
       "conflicts": [
-        "greedy",
-        "jealous",
-        "gourmand"
+        "chciwość",
+        "zazdrość",
+        "łakomstwo"
       ],
       "bypassLimit": false,
       "data": {
@@ -404,12 +404,12 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "greedy",
-          "jealous",
-          "gourmand"
+          "chciwość",
+          "zazdrość",
+          "łakomstwo"
         ],
         "stats": [
-
+          "x50% global certainty loss factor"
         ]
       },
       "defName": "Ascetic",
@@ -421,7 +421,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy is romantically attracted to people of his own gender.",
+      "description": "Odczuwa pociąg seksualny do osób tej samej płci.",
       "stats": [
 
       ],
@@ -451,7 +451,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy is romantically attracted to both men and women.",
+      "description": "Czuje pociąg zarówno do kobiet jak i mężczyzn.",
       "stats": [
 
       ],
@@ -481,7 +481,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy has no sexual attraction to anyone at all.",
+      "description": "W ogóle nie odczuwa pociągu do kogokolwiek.",
       "stats": [
 
       ],
@@ -511,7 +511,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
+      "description": "Ma chroboczący głos i mówi jak przez nos, ma tendencję do mówienia szczekliwymi, zniekształconymi zwrotami. Przez co inni czują do PAWN_gender ? niego : niej niechęć.",
       "stats": [
 
       ],
@@ -541,7 +541,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy breathes heavily all the time, and sweats constantly. People find it creepy.",
+      "description": "Cały czas ciężko oddycha i ciągle się poci. Ludzie uważają to za przerażające.",
       "stats": [
 
       ],
@@ -571,7 +571,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy loves fire. he will never extinguish fires. To relieve stress, he will occasionally go on random fire starting sprees. This happens more often if his mood is low.",
+      "description": "Kocha ogień. Nigdy nie będzie go PAWN_gender ? gasił : gasiła. By złagodzić stres, czasami może wzniecać pożary. Będzie zdarzać się to częściej, gdy będzie w złym nastroju.",
       "stats": [
         "Only mental break \"FireStartingSpree\" allowed."
       ],
@@ -601,12 +601,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
+      "description": "Jest PAWN_gender ? słaby : słaba i PAWN_gender ? tchórzliwy : tchórzliwa. Sparaliżuje PAWN_gender ? go : ją nawet najmniejszy ból.",
       "stats": [
-        "-60% pain shock threshold"
+        "-60% próg szoku bólowego"
       ],
       "conflicts": [
-        "brawler"
+        "zadziora",
+        "masochizm"
       ],
       "bypassLimit": false,
       "data": {
@@ -616,10 +617,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "zadziora",
+          "masochizm"
         ],
         "stats": [
-          "-60% pain shock threshold"
+          "-60% próg szoku bólowego"
         ]
       },
       "defName": "Wimp",
@@ -631,10 +633,10 @@
       "degree": 0
     },
     {
-      "description": "Timmy has remarkable kinesthetic intelligence. he seems to dance around danger with preternatural grace.",
+      "description": "Ma niezwykłą inteligencję kinestetyczną. Zdaje się tańczyć wokół niebezpieczeństwa z nadnaturalną gracją.",
       "stats": [
-        "+15.0 melee dodge chance",
-        "x10% trap spring chance"
+        "+15.0 szansa uniknięcia ciosu",
+        "x10% szansa na aktywację pułapki"
       ],
       "conflicts": [
 
@@ -650,8 +652,8 @@
 
         ],
         "stats": [
-          "+15.0 melee dodge chance",
-          "x10% trap spring chance"
+          "+15.0 szansa uniknięcia ciosu",
+          "x10% szansa na aktywację pułapki"
         ]
       },
       "defName": "Nimble",
@@ -663,9 +665,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy has a knack for learning. he picks things up much faster than others.",
+      "description": "Ma talent do nauki. Łapie rzeczy znacznie szybciej niż inni.",
       "stats": [
-        "+75% global learning factor"
+        "+75% szybkość nauki"
       ],
       "conflicts": [
 
@@ -681,7 +683,7 @@
 
         ],
         "stats": [
-          "+75% global learning factor"
+          "+75% szybkość nauki"
         ]
       },
       "defName": "FastLearner",
@@ -693,12 +695,12 @@
       "degree": 0
     },
     {
-      "description": "Timmy is slow on the uptake. he learns much slower than others.",
+      "description": "Uczy się dużo wolniej od innych.",
       "stats": [
-        "-75% global learning factor"
+        "-75% szybkość nauki"
       ],
       "conflicts": [
-        "toosmart"
+        "nadludzkamądrość"
       ],
       "bypassLimit": false,
       "data": {
@@ -708,10 +710,10 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "toosmart"
+          "nadludzkamądrość"
         ],
         "stats": [
-          "-75% global learning factor"
+          "-75% szybkość nauki"
         ]
       },
       "defName": "SlowLearner",
@@ -723,9 +725,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever, no matter how long he stays inside, and is not bothered by darkness.",
+      "description": "Nie ma potrzeby wychodzenia na zewnątrz czy przebywania na świetle dziennym. Nigdy nie będzie się PAWN_gender ? czuł : czuła jak w klatce i nie dozna klaustrofobii. Nie ważne jak długo będzie PAWN_gender ? przebywał : przebywała wewnątrz. Nie przejmuje się także ciemnością.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -741,7 +743,7 @@
 
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "Undergrounder",
@@ -753,12 +755,12 @@
       "degree": 0
     },
     {
-      "description": "Timmy feels limited in his feeble human body. he often dreams of being enhanced by artificial body parts.",
+      "description": "Czuje ograniczenie, znajdując się w ludzkim ciele. Często śni o byciu ulepszonPAWN_gender ? ym : ą sztucznymi częściami ciała.",
       "stats": [
 
       ],
       "conflicts": [
-        "bodypurist"
+        "puryzmciała"
       ],
       "bypassLimit": false,
       "data": {
@@ -768,14 +770,14 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "bodypurist"
+          "puryzmciała"
         ],
         "stats": [
 
         ]
       },
       "defName": "Transhumanist",
-      "name": "transhumanist",
+      "name": "bodymodder",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -783,12 +785,12 @@
       "degree": 0
     },
     {
-      "description": "Timmy believes the human body is limited for a reason. To him, artificial body parts are unethical and disgusting.",
+      "description": "Uważa, że ciało ludzkie nie bez powodu posiada ograniczenia. Sądzi, że sztuczne części ciała są nieetyczne i obrzydliwe.",
       "stats": [
 
       ],
       "conflicts": [
-        "transhumanist"
+        "moderciała"
       ],
       "bypassLimit": false,
       "data": {
@@ -798,7 +800,7 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "transhumanist"
+          "moderciała"
         ],
         "stats": [
 
@@ -813,7 +815,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy really dislikes and distrusts men.",
+      "description": "Nie lubi mężczyzn ani im nie ufa.",
       "stats": [
 
       ],
@@ -843,7 +845,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy really dislikes and distrusts women.",
+      "description": "Nie lubi kobiet ani im nie ufa.",
       "stats": [
 
       ],
@@ -873,7 +875,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy has a fantastic memory for detail. he will lose unused skills at half the rate of other people.",
+      "description": "Ma fantastyczną pamięć do szczegółów. Będzie PAWN_gender ? tracił : traciła umiejętności z których nie korzysta o połowę wolniej od innych osób.",
       "stats": [
 
       ],
@@ -903,9 +905,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy has thick skin, dense flesh, and durable bones. he takes much less damage than other people from the same blows. he is extremely hard to kill.",
+      "description": "Ma grubą skórę, mięsiste ciało, oraz wytrzymałe kości. Otrzymuje znacznie mniej obrażeń niż inni ludzie przyjmując te same ciosy. Jest niezwykle trudnPAWN_gender ? y : a do zabicia.",
       "stats": [
-        "x50% incoming damage multiplier"
+        "x50% mnożnik przychodzących obrażeń"
       ],
       "conflicts": [
 
@@ -921,7 +923,7 @@
 
         ],
         "stats": [
-          "x50% incoming damage multiplier"
+          "x50% mnożnik przychodzących obrażeń"
         ]
       },
       "defName": "Tough",
@@ -933,9 +935,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
+      "description": "Czuje się wyobcowanPAWN_gender ? y : a i niezrozumiaPAWN_gender ? ny : na przez innych ludzi. Będzie miaPAWN_gender ? ł : ła stałe obniżenie nastroju, ale zyska szansę (50%) na inspirację kreatywnością po załamaniu psychicznym.",
       "stats": [
-
+        "Morbidowy meditation focus type allowed."
       ],
       "conflicts": [
 
@@ -951,7 +953,7 @@
 
         ],
         "stats": [
-
+          "Morbidowy meditation focus type allowed."
         ]
       },
       "defName": "TorturedArtist",
@@ -963,13 +965,13 @@
       "degree": 0
     },
     {
-      "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
+      "description": "Życie kręci się wokół jedzenia. Szybko głodnieje, a od czasu do czasu zawłada PAWN_gender ? nim : nią popęd żarłocznego jedzenia, nawet jeśli nie jest PAWN_gender ? głodny : głodna.",
       "stats": [
         "Only mental break \"Binging_Food\" allowed.",
-        "+4 cooking"
+        "+4 gotowanie"
       ],
       "conflicts": [
-        "ascetic"
+        "ascetyzm"
       ],
       "bypassLimit": false,
       "data": {
@@ -979,11 +981,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "ascetic"
+          "ascetyzm"
         ],
         "stats": [
           "Only mental break \"Binging_Food\" allowed.",
-          "+4 cooking"
+          "+4 gotowanie"
         ]
       },
       "defName": "Gourmand",
@@ -995,9 +997,9 @@
       "degree": 0
     },
     {
-      "description": "Timmy doesn't need as much sleep as the average person. Whether he's sleeping on a bed or on the ground, he will be fully rested in about two thirds the usual time.",
+      "description": "Nie potrzebuje tyle snu co przeciętna osoba. Nie ważne czy śpi na podłodze czy na łóżku, zawsze będzie w pełni PAWN_gender ? wypoczęty : wypoczęta w przeciągu dwóch trzecich typowego czasu.",
       "stats": [
-        "+50% rest rate multiplier"
+        "+50% mnożnik szybkości odpoczynku"
       ],
       "conflicts": [
 
@@ -1013,7 +1015,7 @@
 
         ],
         "stats": [
-          "+50% rest rate multiplier"
+          "+50% mnożnik szybkości odpoczynku"
         ]
       },
       "defName": "QuickSleeper",
@@ -1025,10 +1027,10 @@
       "degree": 0
     },
     {
-      "description": "Timmy is always falling behind the group whenever he goes anywhere.",
+      "description": "Zawsze zostaje w tyle grupy, gdziekolwiek by się nie ruszyPAWN_gender ? ł : ła.",
       "stats": [
-        "Go frenzy inspiration disabled.",
-        "-0.20 move speed"
+        "Szalony chód inspiration disabled.",
+        "-0.20 prędkość ruchu"
       ],
       "conflicts": [
 
@@ -1044,8 +1046,8 @@
 
         ],
         "stats": [
-          "Go frenzy inspiration disabled.",
-          "-0.20 move speed"
+          "Szalony chód inspiration disabled.",
+          "-0.20 prędkość ruchu"
         ]
       },
       "defName": "SpeedOffset",
@@ -1057,9 +1059,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy likes to be where he's going. he walks quicker than most people.",
+      "description": "Zawsze chce dotrzeć jak najszybciej do celu. Porusza się szybciej niż większość ludzi.",
       "stats": [
-        "+0.20 move speed"
+        "+0.20 prędkość ruchu"
       ],
       "conflicts": [
 
@@ -1075,7 +1077,7 @@
 
         ],
         "stats": [
-          "+0.20 move speed"
+          "+0.20 prędkość ruchu"
         ]
       },
       "defName": "SpeedOffset",
@@ -1087,9 +1089,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy always moves with a sense of urgency - so much so that others often fail to keep up.",
+      "description": "Uwija się szybciej niż mrówki. Pozostali mają problem, by za PAWN_gender ? nim : nią nadążyć.",
       "stats": [
-        "+0.40 move speed"
+        "+0.40 prędkość ruchu"
       ],
       "conflicts": [
 
@@ -1105,7 +1107,7 @@
 
         ],
         "stats": [
-          "+0.40 move speed"
+          "+0.40 prędkość ruchu"
         ]
       },
       "defName": "SpeedOffset",
@@ -1117,7 +1119,7 @@
       "degree": 2
     },
     {
-      "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
+      "description": "Ma silną fascynację wszelakimi chemicznymi źródłami szczęścia. Spożyje ich ogromne ilości, a jeśli nie będzie jeszcze PAWN_gender ? zadowolony : zadowolona i PAWN_gender ? uzależniony : uzależniona od jakiejkolwiek używki, czasami może się udać na hardą, używkową bibę. Zignoruje zakazy zażywania uszczęśliwiających używek.",
       "stats": [
 
       ],
@@ -1147,7 +1149,7 @@
       "degree": 2
     },
     {
-      "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
+      "description": "Podejrzanie często rozgląda się za używkami. Spożyje ich ogromne ilości, a jeśli nie będzie jeszcze PAWN_gender ? zadowolony : zadowolona i PAWN_gender ? uzależniony : uzależniona od jakiejkolwiek używki, czasami może się udać na społeczną, używkową bibę. Zignoruje zakazy zażywania uszczęśliwiających używek.",
       "stats": [
 
       ],
@@ -1177,10 +1179,10 @@
       "degree": 1
     },
     {
-      "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
+      "description": "Nie dopuszcza do siebie myśli, że można czerpać radość z używek. Unika alkoholu i rekreacyjnych używek za wszelką cenę.",
       "stats": [
-        "Binging on drug mental state disabled.",
-        "Binging on drug mental state disabled."
+        "Obsesja używkowa mental state disabled.",
+        "Obsesja używkowa mental state disabled."
       ],
       "conflicts": [
 
@@ -1196,8 +1198,8 @@
 
         ],
         "stats": [
-          "Binging on drug mental state disabled.",
-          "Binging on drug mental state disabled."
+          "Obsesja używkowa mental state disabled.",
+          "Obsesja używkowa mental state disabled."
         ]
       },
       "defName": "DrugDesire",
@@ -1209,7 +1211,7 @@
       "degree": -1
     },
     {
-      "description": "Timmy is just naturally upbeat about his situation, pretty much all the time, no matter what it is.",
+      "description": "Widzi wszystko w różowych barwach - bez względu na sytuację, w jakiej się znajduje.",
       "stats": [
 
       ],
@@ -1239,7 +1241,7 @@
       "degree": 2
     },
     {
-      "description": "Timmy is naturally optimistic about life. It's hard to get him down.",
+      "description": "Jest pozytywnie nastawiony do życia - trudno jest zepsuć jego humor.",
       "stats": [
 
       ],
@@ -1269,7 +1271,7 @@
       "degree": 1
     },
     {
-      "description": "Timmy tends to look on the bad side of life.",
+      "description": "Widzi świat w ciemnych barwach - łatwo można zepsuć jego humor.",
       "stats": [
 
       ],
@@ -1299,7 +1301,7 @@
       "degree": -1
     },
     {
-      "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
+      "description": "Jest osobą, którą trudno rozweselić. Ma problem z utrzymaniem pogody ducha, nawet kiedy wszystko jest w porządku.",
       "stats": [
 
       ],
@@ -1329,9 +1331,9 @@
       "degree": -2
     },
     {
-      "description": "Timmy's will is an iron shield. he keeps going through thick and thin, when others broke down long before.",
+      "description": "Siła woli jest twarda niczym żelazna tarcza. Choć może mieć mentalne wzloty i upadki, nigdy się nie załamuje.",
       "stats": [
-        "-18% mental break threshold"
+        "-18% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1347,7 +1349,7 @@
 
         ],
         "stats": [
-          "-18% mental break threshold"
+          "-18% próg poziomu załamania"
         ]
       },
       "defName": "Nerves",
@@ -1359,9 +1361,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy is mentally tough and won't break down under stresses that would crack most people.",
+      "description": "Twardy orzech to zgryzienia - jest osobą, którą bardzo trudno doprowadzić do załamania nerwowego.",
       "stats": [
-        "-9% mental break threshold"
+        "-9% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1377,7 +1379,7 @@
 
         ],
         "stats": [
-          "-9% mental break threshold"
+          "-9% próg poziomu załamania"
         ]
       },
       "defName": "Nerves",
@@ -1389,9 +1391,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy tends to crack under pressure.",
+      "description": "To niespokojna osoba, która znacznie szybciej załamuje się w trudnej sytuacji.",
       "stats": [
-        "+8% mental break threshold"
+        "+8% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1407,7 +1409,7 @@
 
         ],
         "stats": [
-          "+8% mental break threshold"
+          "+8% próg poziomu załamania"
         ]
       },
       "defName": "Nerves",
@@ -1419,9 +1421,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
+      "description": "Żyje w wiecznym stresie. Najpewniej będzie pierwszą osobą, która się załamie, gdy sytuacja stanie się trudna.",
       "stats": [
-        "+15% mental break threshold"
+        "+15% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1437,7 +1439,7 @@
 
         ],
         "stats": [
-          "+15% mental break threshold"
+          "+15% próg poziomu załamania"
         ]
       },
       "defName": "Nerves",
@@ -1449,10 +1451,10 @@
       "degree": -2
     },
     {
-      "description": "Timmy likes to have things squared away. he will work harder than most to attain this state of affairs, but his nerves can get the better of him.",
+      "description": "Lubi trzymać wszystko na dystans. Będzie pracować ciężej niż inni, aby osiągnąć cel, ale jego słabe nerwy mogą w tym przeszkodzić.",
       "stats": [
-        "+20% global work speed",
-        "+8% mental break threshold"
+        "+20% globalna szybkość pracy",
+        "+8% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1468,8 +1470,8 @@
 
         ],
         "stats": [
-          "+20% global work speed",
-          "+8% mental break threshold"
+          "+20% globalna szybkość pracy",
+          "+8% próg poziomu załamania"
         ]
       },
       "defName": "Neurotic",
@@ -1481,10 +1483,10 @@
       "degree": 1
     },
     {
-      "description": "Timmy feels constantly nervous about everything that has to get done. he will work extremely hard to attain this state of affairs, but his nerves can easily get the better of him.",
+      "description": "Bardzo przejmuje się każdą czynnością. Będzie pracować o wiele ciężej niż inni, aby osiągnąć cel, ale jego słabe nerwy łatwo mogą w tym przeszkodzić.",
       "stats": [
-        "+40% global work speed",
-        "+14% mental break threshold"
+        "+40% globalna szybkość pracy",
+        "+14% próg poziomu załamania"
       ],
       "conflicts": [
 
@@ -1500,8 +1502,8 @@
 
         ],
         "stats": [
-          "+40% global work speed",
-          "+14% mental break threshold"
+          "+40% globalna szybkość pracy",
+          "+14% próg poziomu załamania"
         ]
       },
       "defName": "Neurotic",
@@ -1513,9 +1515,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy has an easy time staying on-task and focused, and gets things done much faster than the average person.",
+      "description": "To człowiek urodzony, by pracować. Niezwykle łatwo organizuje swoją pracę, dzięki czemu kończy ją znacznie szybciej niż inni.",
       "stats": [
-        "+35% global work speed"
+        "+35% globalna szybkość pracy"
       ],
       "conflicts": [
 
@@ -1531,7 +1533,7 @@
 
         ],
         "stats": [
-          "+35% global work speed"
+          "+35% globalna szybkość pracy"
         ]
       },
       "defName": "Industriousness",
@@ -1543,9 +1545,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy is a natural hard worker and will finish tasks faster than most.",
+      "description": "Lubi pracę, dzięki czemu kończy ją dużo szybciej, niż zrobiłaby to przeciętna osoba.",
       "stats": [
-        "+20% global work speed"
+        "+20% globalna szybkość pracy"
       ],
       "conflicts": [
 
@@ -1561,7 +1563,7 @@
 
         ],
         "stats": [
-          "+20% global work speed"
+          "+20% globalna szybkość pracy"
         ]
       },
       "defName": "Industriousness",
@@ -1573,9 +1575,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy is a little bit lazy.",
+      "description": "Wykonuje swoje obowiązki wolniej niż inni.",
       "stats": [
-        "-20% global work speed"
+        "-20% globalna szybkość pracy"
       ],
       "conflicts": [
 
@@ -1591,7 +1593,7 @@
 
         ],
         "stats": [
-          "-20% global work speed"
+          "-20% globalna szybkość pracy"
         ]
       },
       "defName": "Industriousness",
@@ -1603,9 +1605,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
+      "description": "Lubi stać w miejscu i nic nie robić. Wolniej się porusza i często zapomina o tym, czym powinien się zajmować.",
       "stats": [
-        "-35% global work speed"
+        "-35% globalna szybkość pracy"
       ],
       "conflicts": [
 
@@ -1621,7 +1623,7 @@
 
         ],
         "stats": [
-          "-35% global work speed"
+          "-35% globalna szybkość pracy"
         ]
       },
       "defName": "Industriousness",
@@ -1633,9 +1635,9 @@
       "degree": -2
     },
     {
-      "description": "Timmy's mind is like a psychic tuning fork. he is extremely sensitive to psychic phenomena.",
+      "description": "Umysł jest podatny na wpływy niczym kamerton. Charakteryzuje się ekstremalną wrażliwością na zjawiska psychiczne.",
       "stats": [
-        "+80% psychic sensitivity"
+        "+80% podatność PSI"
       ],
       "conflicts": [
 
@@ -1651,7 +1653,7 @@
 
         ],
         "stats": [
-          "+80% psychic sensitivity"
+          "+80% podatność PSI"
         ]
       },
       "defName": "PsychicSensitivity",
@@ -1663,9 +1665,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy's mind is unusually sensitive to psychic phenomena.",
+      "description": "Umysł jest niezwykle wrażliwy na wszelkie zjawiska psychiczne.",
       "stats": [
-        "+40% psychic sensitivity"
+        "+40% podatność PSI"
       ],
       "conflicts": [
 
@@ -1681,7 +1683,7 @@
 
         ],
         "stats": [
-          "+40% psychic sensitivity"
+          "+40% podatność PSI"
         ]
       },
       "defName": "PsychicSensitivity",
@@ -1693,9 +1695,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy's mind is psychically out of tune with others. he isn't as affected by psychic phenomena.",
+      "description": "Umysł jest niezgodny z resztą, dlatego nie jest aż tak podatny na zjawiska psychiczne.",
       "stats": [
-        "-50% psychic sensitivity"
+        "-50% podatność PSI"
       ],
       "conflicts": [
 
@@ -1711,7 +1713,7 @@
 
         ],
         "stats": [
-          "-50% psychic sensitivity"
+          "-50% podatność PSI"
         ]
       },
       "defName": "PsychicSensitivity",
@@ -1723,9 +1725,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy's mind works on a psychic frequency different from everyone else. he just isn't affected by psychic phenomena.",
+      "description": "Umysł działa na zupełnie innych falach niż reszta, przez co w ogóle nie jest podatny na zjawiska psychiczne.",
       "stats": [
-        "-100% psychic sensitivity"
+        "-100% podatność PSI"
       ],
       "conflicts": [
 
@@ -1741,7 +1743,7 @@
 
         ],
         "stats": [
-          "-100% psychic sensitivity"
+          "-100% podatność PSI"
         ]
       },
       "defName": "PsychicSensitivity",
@@ -1753,13 +1755,13 @@
       "degree": -2
     },
     {
-      "description": "Timmy takes more time to aim when shooting. he shoots less often than others, but with more accuracy.",
+      "description": "Długo mierzy nim pociągnie za spust. Strzela wolniej od innych, ale celniej.",
       "stats": [
-        "+25% aiming time",
-        "+5.0 shooting accuracy"
+        "+25% czas celowania",
+        "+5.0 celność strzelania"
       ],
       "conflicts": [
-        "brawler"
+        "zadziora"
       ],
       "bypassLimit": false,
       "data": {
@@ -1769,11 +1771,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "zadziora"
         ],
         "stats": [
-          "+25% aiming time",
-          "+5.0 shooting accuracy"
+          "+25% czas celowania",
+          "+5.0 celność strzelania"
         ]
       },
       "defName": "ShootingAccuracy",
@@ -1785,13 +1787,13 @@
       "degree": 1
     },
     {
-      "description": "Pew! Pew! Pew! Timmy just likes pulling the trigger. he shoots faster than others, but less accurately.",
+      "description": "Pif! Paf! Puf! Po prostu lubi pociągać za spust. Strzela szybciej od innych, ale niedokładniej.",
       "stats": [
-        "-50% aiming time",
-        "-5.0 shooting accuracy"
+        "-50% czas celowania",
+        "-5.0 celność strzelania"
       ],
       "conflicts": [
-        "brawler"
+        "zadziora"
       ],
       "bypassLimit": false,
       "data": {
@@ -1801,11 +1803,11 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "zadziora"
         ],
         "stats": [
-          "-50% aiming time",
-          "-5.0 shooting accuracy"
+          "-50% czas celowania",
+          "-5.0 celność strzelania"
         ]
       },
       "defName": "ShootingAccuracy",
@@ -1817,9 +1819,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to him before he even opens his mouth.",
+      "description": "Jest wyjątkowo piękną osobą, ma egzotyczne rysy twarzy i przyciągające spojrzenie. Ludzie są PAWN_gender ? nim : nią zafascynowani, jeszcze zanim otworzy swoje usta.",
       "stats": [
-        "+2.0 beauty"
+        "+2.0 piękno"
       ],
       "conflicts": [
 
@@ -1835,7 +1837,7 @@
 
         ],
         "stats": [
-          "+2.0 beauty"
+          "+2.0 piękno"
         ]
       },
       "defName": "Beauty",
@@ -1847,9 +1849,9 @@
       "degree": 2
     },
     {
-      "description": "Timmy has a pretty face, which predisposes people to like him.",
+      "description": "Ma ładną twarz, która sprawia, że ludzie PAWN_gender ? go : ją lubią.",
       "stats": [
-        "+1.0 beauty"
+        "+1.0 piękno"
       ],
       "conflicts": [
 
@@ -1865,7 +1867,7 @@
 
         ],
         "stats": [
-          "+1.0 beauty"
+          "+1.0 piękno"
         ]
       },
       "defName": "Beauty",
@@ -1877,9 +1879,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
+      "description": "Jest trochę PAWN_gender ? brzydki : brzydka. To nieco odpycha innych podczas interakcji społecznych.",
       "stats": [
-        "-1.0 beauty"
+        "-1.0 piękno"
       ],
       "conflicts": [
 
@@ -1895,7 +1897,7 @@
 
         ],
         "stats": [
-          "-1.0 beauty"
+          "-1.0 piękno"
         ]
       },
       "defName": "Beauty",
@@ -1907,9 +1909,9 @@
       "degree": -1
     },
     {
-      "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
+      "description": "Jest niesamowicie PAWN_gender ? brzydki : brzydka. PAWN_gender ? jego : jej twarz wygląda jak coś pomiędzy rysunkiem małego dziecka, zniekształconym płodem w słoiku formaliny a kawałkiem sztuki nowoczesnej. Ludzie muszą się nieźle natrudzić, aby móc w ogóle na PAWN_gender ? niego : nią patrzeć podczas rozmowy.",
       "stats": [
-        "-2.0 beauty"
+        "-2.0 piękno"
       ],
       "conflicts": [
 
@@ -1925,7 +1927,7 @@
 
         ],
         "stats": [
-          "-2.0 beauty"
+          "-2.0 piękno"
         ]
       },
       "defName": "Beauty",
@@ -1937,9 +1939,9 @@
       "degree": -2
     },
     {
-      "description": "Timmy has a naturally powerful immune system. he will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
+      "description": "Ma naturalnie silny układ odpornościowy. Zyskuje odporność znacznie szybciej niż normalna osoba i może przetrwać choroby, które zabiłyby innych.",
       "stats": [
-        "+30% immunity gain speed"
+        "+30% szybkość wzrostu odporności"
       ],
       "conflicts": [
 
@@ -1955,7 +1957,7 @@
 
         ],
         "stats": [
-          "+30% immunity gain speed"
+          "+30% szybkość wzrostu odporności"
         ]
       },
       "defName": "Immunity",
@@ -1967,9 +1969,9 @@
       "degree": 1
     },
     {
-      "description": "Timmy has an awful immune system. he gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
+      "description": "Ma bardzo słaby układ odpornościowy. Choruje znacznie częściej niż to zwykle bywa, a często na choroby, na które jeszcze nikt w koloni nie cierpiał.",
       "stats": [
-        "+4 medical"
+        "+4 medyczne"
       ],
       "conflicts": [
 
@@ -1985,7 +1987,7 @@
 
         ],
         "stats": [
-          "+4 medical"
+          "+4 medyczne"
         ]
       },
       "defName": "Immunity",
@@ -1995,26 +1997,64 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": -1
+    },
+    {
+      "description": "NAME jest robotem. Jako robot jest troche szybszy i mało podatny na zdarzenia psychiczne.",
+      "stats": [
+        "+0.10 prędkość ruchu",
+        "+20% globalna szybkość pracy",
+        "-100% podatność PSI",
+        "-95% podatność na toksyny",
+        "-90% próg poziomu załamania"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Misc. Robots",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+0.10 prędkość ruchu",
+          "+20% globalna szybkość pracy",
+          "-100% podatność PSI",
+          "-95% podatność na toksyny",
+          "-90% próg poziomu załamania"
+        ]
+      },
+      "defName": "AIRobot_BaseTrait",
+      "name": "robot",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1
     }
   ],
   "races": [
     {
       "data": {
         "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+28.8F Minimum comfortable temperature",
-          "+46.8F Maximum comfortable temperature",
-          "+50 Leather amount",
-          "+3 Honor value"
+          "+60.00 Masa",
+          "+70% Podatność na ogień",
+          "+1750€ Wartość rynkowa",
+          "+4.60 Prędkość ruchu",
+          "+16.0C Min. komfortowa temperatura",
+          "+26.0C Maks. komfortowa temperatura",
+          "+75 Ilość skóry",
+          "+3 Ilość honoru"
         ],
-        "mod": "RimWorld",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
-      "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
+      "description": "Najzwyklejszy człowiek, w większości niezmodyfikowany przez inżynierię genów i przeważnie niezmieniony przez ewolucyjne naciski na pozaziemskich planetach.",
       "defName": "Human",
       "enabled": true,
       "name": "human",
