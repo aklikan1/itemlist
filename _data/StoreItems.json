@@ -1,6 +1,8 @@
 {
 	"items" : [
 	{
+	},
+	{
 		"abr": "beer",
 		"price": 20,
 		"category": "Używki",
