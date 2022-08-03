@@ -35,70 +35,54 @@ permalink: /info
     {%- endif -%}
 {%- endfor -%}
 
-# Welcome
+# Witaj
 
-Welcome to [{{ site.data.social.twitch }}](https://twitch.tv/{{ site.data.social.twitch }})'s stream.
-This stream uses the mod
-[Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787) to provide an
-interactive experience. There's a lot to the mod that may seem complicated to even more experienced
-users, but this short guide will help you get the hang of things.
+Witaj na kanale [{{ site.data.social.twitch }}](https://twitch.tv/{{ site.data.social.twitch }}) . Ten stream korzysta z moda [Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787) aby zapewnić interakcję między twórcą, a widzami. Jest tutaj wiele rzeczy które mogą wydawać się skomplikowane nawet dla bardziej doświadczonych użytkowników, ale ten krótki przewodnik pomoże ci ogarnąć wszystko.
 
-## What is Twitch Toolkit?
+## Czym jest Twitch Toolkit?
 
-Twitch Toolkit is a mod by hodlhodl that allows viewers to affect the game in a number of ways. The
-most prominent is its [store]({{- "/" | relative_url -}}), which allows you to purchase a number of
-things the streamer curated. Depending on the purchase, these things appear in-game or affect the
-game in some way. Another way viewers can interact with the game is through the mod's polls. The
-choices in these polls depend heavily on what's enabled in the mod.
+Twitch Toolkit jest modem stworzonym przez hodlhodl który pozwala widzom wpływać na rozgrywkę na wiele różnych sposobów. Najbardziej wyróżniającym się sposobem jest sklep - [SKLEP]({{- "/" | relative_url -}}), który pozwala Ci kupować rzeczy, które mają pomóc streamerowi w rozgrywce. W zależności od zakupu rzeczy te pojawią się w grze lub w pewien sposób wpłyną na rozgrywkę. Innym sposobem w jaki widz może wpływać na rozgrywkę są ankiety wywoływane przez mod. Wybory których będziesz dokonywać w ankiecie są uzależnione od tego, które opcje w modzie są włączone.
 
-## What Are Coins?
+## Jak dołączyć do koloni?
+Aby dołączyć do rozgrywki skorzystaj z którejś z poniższych komend:
 
-Coins are the mod's currency. You can view your balance by using the `{{ bal }}` command. 
+- `!joinqueue` - dołączasz do losowania o miejsce w koloni
+- `!buy pawn` - z miejsca dołączasz do koloni
+- `!buy prisoner` - twój kolonista dołącza do koloni jako więzień i musi zostać przekabacony, aby brać udział w życiu koloni
+
+## Czym są monety?
+
+Monety są walutą w modzie. Możesz wyświetlić stan swoich monet korzystając z komendy `{{ bal }}`. 
 
 {% if utils == true %}
-You'll notice the balance command may have some new emojis. If that's the case, here is an overview
-of the emojis as follows:
+Po wpisaniu komendy bal może wyświetlić Ci się parę dodatkowych emotek. W takim przypadku poniżej znajduje się opis tego co dane emotki oznaczają:
 
-- 💰 represents the amount of coins you current have.
-- ⚖ represents your current karma.
-- 📈 represents the amount of coins you gain everytime the mod awards coins.
-- 📉 represents the amount of coins you lose everytime to mod awards coins.
+- 💰 oznacza ilość monet którą obecnie posiadasz.
+- ⚖ oznacza twój obecny poziom karmy.
+- 📈 oznacza ilość monet którą zyskasz w momencie kiedy mod będzie nagradzał widzów monetami.
+- 📉 oznacza ilość monet którą stracisz w momencie kiedy mod będzie nagradzał widzów monetami.
 
 {% endif %}
 
 
 {%- if lootboxes == true -%}
-You'll also notice that you'll get a message from the bot about a lootbox. You can open this lootbox
-by using the `!openlootbox` command, as well as check the number of lootboxes you have with `!lootboxes`.
-You'll always get a new lootbox everyday.
+Dostaniesz wiadomość od bota jeśli otrzymasz lootboxa. Możesz otworzyć lootboxa używając komendy`!openlootbox`. Ilość lootboxów które posiadasz możesz sprawdzić korzystając z komendy `!lootboxes`. Codziennie dostaniesz nowego lootboxa. AKTUALNIE NIEAKTYWNE, PSUJE MOCNO BALANS!
 {%- endif -%}
 
 
 <br/>
-## What is Karma?
+## Czym jest Karma?
 
-Karma is a system in the mod that tries to limit the amount of negative events a viewer can purchase at
-one time. This system works by directly modifying that amount of coins viewers get everytime the mod
-awards coins. This means that the lower you karma is, the lower your coin gain is. The hope is that
-negative events get spread out more so the colony can recover.
+Karma jest systemem w modzie który próbuje ograniczać ilość negatywnych wydarzeń, które widz może zrzucić streamerowi na głowę w jednym momencie. Ten system działa poprzez modyfikowanie przychodu który widz dostaje w momencie rozdawania monet przez mod. To oznacza że im mniejszą masz karmę, tym mniej monet dostaniesz. 
 
-## How Do I Use Twitch Toolkit?
+## W jaki sposób używać Twitch Toolkit?
 
-You can use Twitch Toolkit in a number of ways -- the most prominent way is through its
-[commands]({{- "/commands" | relative_url -}}). The more important command is the `{{- buy -}}`
-command, which is the mods entry point into purchasing things from the store. Other notable commands
-are the `!mypawn` commands, which allow you see various information about your pawn. We won't cover
-every command here, but most commands should generally be self-descriptive or have a description of
-what they do on the [commands]({{- "/commands" | relative_url -}}) page.
+Możesz używać Twitch Toolkit na wiele sposobów -- najczęściej korzystasz z niego poprzez komendy - [KOMENDY]({{- "/commands" | relative_url -}}). Jedną z ważniejszych komend jest komenda `{{- buy -}}` która pozwala na kupowanie rzeczy ze sklepu. Inną godną napomnienia komendą jest komenda `!mypawn`, która pozwala Tobie na zobaczenie informacji o swoim koloniście. Nie opiszemy tutaj każej z komend, ale większość z nich powinna sama z nazwy mówić Wam o swojej funkcji albo mieć opis tego co robi na stronie Komendy - [KOMENDY]({{- "/commands" | relative_url -}}) .
 
 
 {%- if puppeteer -%}
 <br/>
-## What is Puppeteer?
+## Czym jest Puppeteer?
 
-[Puppeteer](https://steamcommunity.com/sharedfiles/filedetails/?id=2057192142) is a mod by Brrainz that
-allows viewers to directly control their pawns, and even view a number of information about your pawn in
-a graphical way. It also redirects some of the responses from Twitch Toolkit to its website to clean up
-chat a bit. So, if you're logged into Puppeeter and you're wondering why the bot isn't responding to you,
-you should check the `TT` tab on the website first.
+Lalkarz - [Puppeteer](https://steamcommunity.com/sharedfiles/filedetails/?id=2057192142) jest modem stworzonym przez Brrainz który pozwala widzowi na bezpośrednie sterowanie jego kolonistami, a także wyświetla w graficzny sposób informacje o koloniście. Przekierowuje niektóre odpowiedzi z Twitch Toolkit na swoją stronę w celu uporządkowania chatu. Jeżeli jesteś zalogowany jako Lalkarz i zastanawiasz się dlaczego bot Ci nie odpowiada, powinieneś najpierw sprawdzić zakładkę `TT` (Twitch Toolkit)  na  stronie.
 {%- endif -%}
