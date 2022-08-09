@@ -8,14 +8,14 @@
   {
     "author": "NukaFrog",
     "name": "Enhanced Battery",
-    "steamId": null,
-    "version": null
+    "steamId": "1556048095",
+    "version": "1.0"
   },
   {
     "author": "Taveron",
     "name": "Increased Stack",
-    "steamId": null,
-    "version": null
+    "steamId": "798158924",
+    "version": "1.0"
   },
   {
     "author": "Murmur",
@@ -26,7 +26,7 @@
   {
     "author": "Ykara",
     "name": "Expanded Prosthetics and Organ Engineering",
-    "steamId": null,
+    "steamId": "725956940",
     "version": null
   },
   {
@@ -38,7 +38,7 @@
   {
     "author": "Hahkethomemah",
     "name": "Honest Corpse",
-    "steamId": null,
+    "steamId": "2472054492",
     "version": null
   },
   {
@@ -50,7 +50,7 @@
   {
     "author": "Haplo",
     "name": "Misc. Training",
-    "steamId": null,
+    "steamId": "717575199",
     "version": null
   },
   {
@@ -68,19 +68,19 @@
   {
     "author": "Haplo",
     "name": "Misc. Robots",
-    "steamId": null,
+    "steamId": "724602224",
     "version": null
   },
   {
     "author": "Alaestor",
     "name": "Misc. Robots++",
-    "steamId": null,
+    "steamId": "747645520",
     "version": null
   },
   {
     "author": "Aspwil",
     "name": "Human Plants",
-    "steamId": null,
+    "steamId": "2559325728",
     "version": null
   },
   {
@@ -92,7 +92,7 @@
   {
     "author": "Oskar Potocki,  Sarg Bjornson i  Chowder",
     "name": "Vanilla Brewing Expanded",
-    "steamId": null,
+    "steamId": "2186560858",
     "version": null
   },
   {
@@ -116,7 +116,7 @@
   {
     "author": "Roolo",
     "name": "Giddy-up! Core",
-    "steamId": null,
+    "steamId": "1216999901",
     "version": null
   },
   {
@@ -128,13 +128,13 @@
   {
     "author": "Roolo",
     "name": "Giddy-up! Battle Mounts",
-    "steamId": null,
+    "steamId": "1217001091",
     "version": null
   },
   {
     "author": "Roolo",
     "name": "Giddy-up! Ride and Roll",
-    "steamId": null,
+    "steamId": "1331961995",
     "version": null
   },
   {
@@ -146,7 +146,7 @@
   {
     "author": "daylight",
     "name": "Vanilla Gourmet Parade",
-    "steamId": null,
+    "steamId": "2117487204",
     "version": null
   },
   {
@@ -158,7 +158,7 @@
   {
     "author": "zymex",
     "name": "No more sleeping Z's",
-    "steamId": null,
+    "steamId": "2024071585",
     "version": null
   },
   {
@@ -170,19 +170,19 @@
   {
     "author": "Razor 2.3",
     "name": "Auto-Cut Blight",
-    "steamId": null,
+    "steamId": "1885186534",
     "version": null
   },
   {
     "author": "Smuffle",
     "name": "Harvest Organs Post Mortem",
-    "steamId": null,
+    "steamId": "1204502413",
     "version": null
   },
   {
     "author": "Mr. Fossil",
     "name": "Harvest Organs Post Mortem - Polish Translation",
-    "steamId": null,
+    "steamId": "2448654386",
     "version": null
   },
   {
@@ -230,13 +230,13 @@
   {
     "author": "void",
     "name": "Terraform Rimworld",
-    "steamId": null,
+    "steamId": "1874652867",
     "version": null
   },
   {
     "author": "EdB",
     "name": "EdB Prepare Carefully",
-    "steamId": null,
+    "steamId": "735106432",
     "version": null
   },
   {
@@ -248,19 +248,19 @@
   {
     "author": "Kage",
     "name": "Resource Trees",
-    "steamId": null,
+    "steamId": "1083829047",
     "version": null
   },
   {
     "author": "Roolo i Updated by Ogliss",
     "name": "RunAndGun",
-    "steamId": null,
+    "steamId": "1204108550",
     "version": null
   },
   {
     "author": "TheGoofyOne",
     "name": "Dried Berries and Meats",
-    "steamId": null,
+    "steamId": "2457299931",
     "version": null
   },
   {
@@ -272,25 +272,25 @@
   {
     "author": "Aelanna",
     "name": "Eccentric Tech - Core",
-    "steamId": null,
+    "steamId": "2552623545",
     "version": null
   },
   {
     "author": "Aelanna",
     "name": "Eccentric Tech - Advanced Shields",
-    "steamId": null,
+    "steamId": "2591721581",
     "version": null
   },
   {
     "author": "Oskar Potocki",
     "name": "Vanilla Weapons Expanded - Grenades",
-    "steamId": null,
+    "steamId": "2194472657",
     "version": null
   },
   {
     "author": "Hades3623",
     "name": "[Sub_Mod] Vanilla Weapons Expanded - Grenades [PL]",
-    "steamId": null,
+    "steamId": "2399949505",
     "version": null
   }
 ]
